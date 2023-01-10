@@ -4,7 +4,8 @@ from tensorflow.keras import optimizers, metrics, layers, Model
 import numpy as np
 import time
 
-vocabulary_map = {'v9_3digit':5571, 'v9':5679, 'v10': 7930}
+# vocabulary_map = {'v9_3digit':5571, 'v9':5679, 'v10': 7930}
+vocabulary_map = {'v9_3digit':8659, 'v9':8721, 'v10': 15151}
 
 class EmbeddingDataGen(tf.keras.utils.Sequence):
     
